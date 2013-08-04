@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+        default_skin="ep.cdpolicy">
+
+    <object name="ep_images"
+            meta_type="Filesystem Directory View"
+            directory="ep.cdpolicy:skins/ep_images"/>
+
+    <skin-path name="ep.cdpolicy" based-on="Sunburst Theme">
+        <layer name="ep_images"
+               insert-after="custom"/>
+    </skin-path>
+
+</object>
+
