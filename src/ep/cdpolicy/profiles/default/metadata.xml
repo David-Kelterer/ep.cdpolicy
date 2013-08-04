@@ -2,6 +2,7 @@
 <metadata>
     <version>1.0</version>
     <dependencies>
+        <dependency>profile-plone.app.theming:default</dependency>
         <dependency>profile-collective.documentviewer:default</dependency>
         <dependency>profile-wildcard.foldercontents:default</dependency>
     </dependencies>

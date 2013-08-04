@@ -37,6 +37,7 @@ setup(name='ep.cdpolicy',
           'setuptools',
           'collective.documentviewer',
           'wildcard.foldercontents',
+          'plone.app.theming',
       ],
       extras_require={'test': ['plone.app.testing']},
       entry_points="""
