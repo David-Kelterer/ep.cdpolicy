@@ -4,7 +4,6 @@
   <viewlet name="plone.global_sections"/>
  </hidden>
  <hidden manager="plone.portalfooter" skinname="ep.cdpolicy">
-  <viewlet name="plone.footer"/>
   <viewlet name="plone.colophon"/>
  </hidden>
 </object>
